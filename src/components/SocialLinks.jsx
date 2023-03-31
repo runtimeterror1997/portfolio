@@ -14,7 +14,7 @@ const SocialLinks = () => {
             LinkedIn <FaLinkedin size={30} />
           </>
         ),
-        href: "https://linkedin.com",
+        href: "https://www.linkedin.com/in/kinga-wangchuk-79083224a/",
         style: "rounded-tr-md",
       },
       {
@@ -24,7 +24,7 @@ const SocialLinks = () => {
             GitHub <FaGithub size={30} />
           </>
         ),
-        href: "https://github.com",
+        href: "https://github.com/runtimeterror1997",
       },
       {
         id: 3,
