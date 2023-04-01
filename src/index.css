@@ -8,5 +8,9 @@
 @layer base {
     html {
         font-family: 'Raleway', sans-serif;
-    }
+    },
+        ul,
+        ol {
+            list-style: revert;
+        }
 }
