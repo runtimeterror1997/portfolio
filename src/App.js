@@ -5,6 +5,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
+import Project from "./components/Project";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      <Experience/>
+      <Experience />
+      <Project/>
       <Skills />
       <Contact />
       <SocialLinks />
