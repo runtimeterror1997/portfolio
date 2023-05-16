@@ -6,6 +6,8 @@ import graphql from "../assets/graphql.png";
 import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import github from "../assets/github.png";
+import figma from "../assets/figma.png";
+
 
 
 const Skills = () => {
@@ -39,7 +41,7 @@ const Skills = () => {
         id: 5,
         src: tailwind,
         title: "Tailwind",
-        style: "shadow-sky-400",
+        style: "shadow-cyan-600",
       },
       {
         id: 6,
@@ -53,16 +55,22 @@ const Skills = () => {
         title: "GitHub",
         style: "shadow-gray-400",
       },
+      {
+        id: 8,
+        src: figma,
+        title: "Figma Design",
+        style: "shadow-purple-600",
+      },
     ];
 
   return (
     <div
       name="skill"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-full text-white"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             My Skills
           </p>
           <p className="py-6 ">These are the technologies I've worked with</p>

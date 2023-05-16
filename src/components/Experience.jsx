@@ -36,11 +36,11 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="w-full h-full bg-gradient-to-b from-gray-800 to-gray-900 text-white pt-10"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-gray-900 text-white pt-10"
     >
       <div className="max-w-screen-lg w-full h-full flex flex-col justify-center p-4 mx-auto">
         <div className="pb-8">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Experience
           </p>
           <p className="py-6">My Journey</p>
@@ -143,7 +143,7 @@ const Experience = () => {
                     Improved site speed by optimizing images and reducing HTTP
                     requests when possible.
                   </li>
-                  <li className="px-4 text-sm font-medium text-gray-300 py-2">
+                  <li className="px-4 text-lg font-medium text-gray-300 py-2">
                     Worked with the senior developer to create a new website
                     from scratch using Reactjs.
                   </li>
