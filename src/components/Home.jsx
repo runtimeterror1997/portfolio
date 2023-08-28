@@ -1,4 +1,3 @@
-import React from 'react';
 import image from '../assets/default.png';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import {Link} from 'react-scroll'
@@ -15,11 +14,15 @@ const Home = () => {
             I am a Frontend Developer
           </h2>
           <p className=" text-gray-500 py-4 max-w-md">
-            I am a Javascript developer with expertise in Reactjs and React
-            Native.
+            My name is Kinga Wangchuk and I am a passionate Frontend developer from
+            Thimphu, Bhutan.
           </p>
           <div>
-            <Link to="experience" smooth className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+            <Link
+              to="about"
+              smooth
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+            >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="" />

@@ -1,4 +1,3 @@
-import React from 'react'
 import html from "../assets/html.png"
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -7,11 +6,14 @@ import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import github from "../assets/github.png";
 import figma from "../assets/figma.png";
+import drf from "../assets/drf.png"
+import python from "../assets/python.png"
+import nextjs from "../assets/nextjs.png"
 
 
 
 const Skills = () => {
-    const experiences = [
+    const skills = [
       {
         id: 1,
         src: html,
@@ -61,6 +63,24 @@ const Skills = () => {
         title: "Figma Design",
         style: "shadow-purple-600",
       },
+      {
+        id: 9,
+        src: python,
+        title: "Python",
+        style: "shadow-blue-900",
+      },
+      {
+        id: 10,
+        src: drf,
+        title: "Django Rest Framework",
+        style: "shadow-red-600",
+      },
+      {
+        id: 11,
+        src: nextjs,
+        title: "Next Js",
+        style: "shadow-gray-700",
+      },
     ];
 
   return (
@@ -73,10 +93,10 @@ const Skills = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             My Skills
           </p>
-          <p className="py-6 ">These are the technologies I've worked with</p>
+          <p className="py-4 ">These are the technologies I've worked with</p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-          {experiences?.map(({ id, src, title, style }) => (
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+          {skills?.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500  py-2 rounded-lg ${style}`}
